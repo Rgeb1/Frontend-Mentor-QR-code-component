@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.3;
+  min-height: 100vh;
+}
+
+#qr-code-img {
+  width: 100%;
+  border-radius: 0.7em;
+  margin-bottom: 0.7em;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 23.437rem;
+  margin: 0 1.5em;
+  padding: 1.1em;
+  border-radius: 1em;
+}
+
+.card-details {
+  padding: 1.2em;
+}
+
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+  font-size: 1.1rem;
+  padding-top: 1em;
+}
+
+.attribution {
+  margin-top: 4em;
+  font-size: 0.8rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%); 
+}
